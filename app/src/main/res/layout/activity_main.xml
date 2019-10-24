@@ -9,27 +9,31 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="405dp">
+
         <LinearLayout
-            android:background="@drawable/a"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/bg"
             android:orientation="vertical">
+
             <ImageView
-                android:layout_marginTop="45dp"
-                android:layout_gravity="center_horizontal"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/profil"/>
-            <TextView
-                android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/profil" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
                 android:text="Rizal Wahyudi"
                 android:textColor="@color/colorPrimaryDark"
-                android:textStyle="bold"
-                android:textSize="21sp"/>
+                android:textSize="21sp"
+                android:textStyle="bold" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="400dp"
             android:layout_height="120dp"
@@ -74,14 +78,15 @@
                         android:text="Followers"
                         android:textSize="20sp"
                         />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1205"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:text="1108"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -96,14 +101,15 @@
                         android:text="Following"
                         android:textSize="20sp"
                         />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="360"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                        android:text="550"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -126,13 +132,14 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/ic_email_black_24dp"/>
+
             <TextView
-                android:textStyle="bold"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Rizalwahyudi51@gmail.com"/>
+                android:text="rizalwahyudi51@gmail.com"
+                android:textStyle="bold" />
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
@@ -144,14 +151,15 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/ic_phone_black_24dp"/>
-            <TextView
-                android:textStyle="bold"
 
-                android:layout_gravity="center_vertical"
+            <TextView
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="+6282332356032"/>
+                android:text="+6282332356032"
+                android:textStyle="bold" />
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
@@ -170,7 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Add to group"/>
+                android:text="Informatic engineering"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
