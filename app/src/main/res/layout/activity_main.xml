@@ -50,12 +50,15 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent">
+
                     <TextView
+                        android:id="@+id/Textview1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Photos"
-                        android:textSize="20sp"
-                        />
+                        android:text="@string/foto"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -72,12 +75,14 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent">
+
                     <TextView
+                        android:id="@+id/Textview2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Followers"
-                        android:textSize="20sp"
-                        />
+                        android:text="@string/pengikut"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,12 +100,14 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent">
+
                     <TextView
+                        android:id="@+id/textview2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Following"
-                        android:textSize="20sp"
-                        />
+                        android:text="@string/mengikuti"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -178,7 +185,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Informatic engineering"/>
+                android:text="@string/Teknik_informatika"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
@@ -197,7 +204,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Show all comments"/>
+                android:text="@string/tampilkan_semua_komentar"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -208,6 +216,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Follow Me"/>
+        android:text="@string/ikuti_saya"/>
 
 </LinearLayout>

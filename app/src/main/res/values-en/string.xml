@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">profile</string>
+    <string name="foto">Photos</string>
+    <string name="pengikut">Followers</string>
+    <string name="mengikuti">Following</string>
+    <string name="tampilkan_semua_komentar">Show all comment</string>
+    <string name="ikuti_saya">Follow Me</string>
+    <string name="Teknik_informatika">Informatics Engineering</string>
+</resources>
