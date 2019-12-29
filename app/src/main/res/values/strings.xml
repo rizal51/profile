@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">profile</string>
+    <string name="foto">foto</string>
+    <string name="pengikut">pengikut</string>
+    <string name="mengikuti">mengikuti</string>
+    <string name="tampilkan_semua_komentar">tampilkan semua komentar</string>
+    <string name="ikuti_saya">Ikuti saya</string>
+    <string name="Teknik_informatika">Teknik Informatika</string>
 </resources>
